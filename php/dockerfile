@@ -2,8 +2,6 @@ FROM php:8.1-fpm
 
 ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
 
-RUN apt update && apt install -y python3 telnet libvips-tools
-
 RUN chmod +x /usr/local/bin/install-php-extensions && \
     install-php-extensions \
     apcu \
@@ -26,5 +24,13 @@ RUN chmod +x /usr/local/bin/install-php-extensions && \
     zip \
     opcache \
     @composer
+
+RUN apt update && apt install -y python3 telnet libvips-tools
+
+RUN curl -L -O https://github.com/elastic/apm-agent-php/releases/download/v1.9.1/apm-agent-php_1.9.1_all.deb && \
+    dpkg -i apm-agent-php_1.9.1_all.deb && \
+    rm apm-agent-php_1.9.1_all.deb
+
+
 
 RUN php -m
