@@ -28,7 +28,7 @@ RUN chmod +x /usr/local/bin/install-php-extensions && \
 RUN apt update && apt install -y python3 telnet libvips-tools
 
 RUN curl -L -O https://github.com/elastic/apm-agent-php/releases/download/v1.13.0/apm-agent-php_1.13.0_amd64.deb && \
-    dpkg -iapm-agent-php_1.13.0_amd64.deb&& \
+    dpkg -i apm-agent-php_1.13.0_amd64.deb && \
     rm apm-agent-php_1.13.0_amd64.deb
 
 RUN php -m
