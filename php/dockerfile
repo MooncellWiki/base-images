@@ -23,6 +23,7 @@ RUN chmod +x /usr/local/bin/install-php-extensions && \
     xsl \
     zip \
     opcache \
+    excimer \
     @composer
 
 RUN apt update && apt install -y python3 telnet libvips-tools
