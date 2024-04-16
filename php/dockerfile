@@ -12,6 +12,7 @@ RUN chmod +x /usr/local/bin/install-php-extensions && \
     intl \
     luasandbox \
     mysqli \
+    memcached \
     pcntl \
     pdo_mysql \
     redis \
