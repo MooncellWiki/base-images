@@ -17,17 +17,6 @@
             "ppa": "false"
         }
 	},
-	"customizations": {
-        // Configure properties specific to VS Code.
-        "vscode": {
-            // Add the IDs of extensions you want installed when the container is created.
-            "extensions": [
-                "ckolkman.vscode-postgres",
-                "rust-lang.rust-analyzer",
-                "serayuzgur.crates",
-                "mhutchie.git-graph"
-            ]
-        }
-    },
-	"remoteUser": "vscode"
+	"remoteUser": "vscode",
+    "containerUser": "vscode"
 }
