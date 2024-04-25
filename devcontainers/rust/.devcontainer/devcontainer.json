@@ -24,6 +24,7 @@
             "extensions": [
                 "ckolkman.vscode-postgres",
                 "rust-lang.rust-analyzer",
+                "serayuzgur.crates",
                 "mhutchie.git-graph"
             ]
         }

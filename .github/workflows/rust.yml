@@ -24,6 +24,6 @@ jobs:
       - name: Pre-build php dev container image
         uses: devcontainers/ci@v0.3
         with:
-          imageName: ghcr.io/mooncellwiki/mw-devcontainer
+          imageName: ghcr.io/mooncellwiki/torappu-backend-devcontainer
           push: always
-          subFolder: ./devcontainers/php
+          subFolder: ./devcontainers/rust
