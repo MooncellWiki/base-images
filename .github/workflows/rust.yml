@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "devcontainers/rust/**"
 
 jobs:
   build:
@@ -19,7 +21,7 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Pre-build dev container image
+      - name: Pre-build php dev container image
         uses: devcontainers/ci@v0.3
         with:
           imageName: ghcr.io/mooncellwiki/mw-devcontainer
