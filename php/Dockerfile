@@ -1,4 +1,7 @@
 FROM php:8.1-fpm
+ENV TZ=Asia/Shanghai
+
+RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 
 ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
 
@@ -29,4 +32,6 @@ RUN chmod +x /usr/local/bin/install-php-extensions && \
 
 RUN apt update && apt install -y python3 telnet libvips-tools
 
-RUN php -m
+COPY ./config/php.ini /usr/local/etc/php/conf.d/php.ini
+
+COPY ./config/php-fpm.conf /usr/local/etc/php-fpm.d/zzz-docker.conf;
