@@ -34,4 +34,4 @@ RUN apt update && apt install -y python3 telnet libvips-tools
 
 COPY ./config/php.ini /usr/local/etc/php/conf.d/php.ini
 
-COPY ./config/php-fpm.conf /usr/local/etc/php-fpm.d/zzz-docker.conf;
+COPY ./config/php-fpm.conf /usr/local/etc/php-fpm.d/zzz-docker.conf
