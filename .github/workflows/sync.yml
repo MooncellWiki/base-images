@@ -15,6 +15,8 @@ jobs:
         with:
           images_file: ./sync/images.yml
           auth_file: ./sync/auth.yml
+          arch: amd64
+          os: linux
         env:
           ALI_CR_USERNAME: ${{secrets.ALI_CR_USERNAME}}
           ALI_CR_PASSWORD: ${{secrets.ALI_CR_PASSWORD}}
