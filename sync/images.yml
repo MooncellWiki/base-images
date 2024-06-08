@@ -8,7 +8,7 @@ grafana/grafana-enterprise:/^10\.4/: registry.cn-shanghai.aliyuncs.com/mooncell_
 grafana/loki:/^2\.9/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/loki
 quay.io/prometheus/node-exporter:/^v1\.8/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/node-exporter
 gcr.io/cadvisor/cadvisor:/^v0\.49/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/cadvisor
-prom/mysqld-exporter:/^0\.15/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/mysqld-exporter
+prom/mysqld-exporter:/^v0\.15/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/mysqld-exporter
 grafana/promtail:/^2\.9/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/promtail
 quay.io/prometheus/memcached-exporter:/^v0\.14/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/memcached-exporter
 quay.io/oliver006/redis_exporter:/^v1\.60/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/redis_exporter
