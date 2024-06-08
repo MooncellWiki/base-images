@@ -12,4 +12,4 @@ prom/mysqld-exporter:/^0/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/mys
 grafana/promtail:/^2/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/promtail
 # quay.io/prometheus/memcached-exporter: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/memcached-exporter
 # quay.io/oliver006/redis_exporter: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/redis_exporter
-postgres/^14/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/postgres
+postgres:/^14/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/postgres
