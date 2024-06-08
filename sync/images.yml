@@ -6,10 +6,10 @@ memcached:/^1\.6/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/memcached
 prom/prometheus:/^v2\.52/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/prometheus
 grafana/grafana-enterprise:/^10\.4/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/grafana-enterprise
 grafana/loki:/^2\.9/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/loki
-# quay.io/prometheus/node-exporter: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/node-exporter
-# gcr.io/cadvisor/cadvisor: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/cadvisor
+quay.io/prometheus/node-exporter:/^v1\.8/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/node-exporter
+gcr.io/cadvisor/cadvisor:/^v0\.49/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/cadvisor
 prom/mysqld-exporter:/^0\.15/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/mysqld-exporter
 grafana/promtail:/^2\.9/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/promtail
-# quay.io/prometheus/memcached-exporter: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/memcached-exporter
-# quay.io/oliver006/redis_exporter: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/redis_exporter
+quay.io/prometheus/memcached-exporter:/^0\.14/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/memcached-exporter
+quay.io/oliver006/redis_exporter:/^1\.60/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/redis_exporter
 postgres:/^14\.8/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/postgres
