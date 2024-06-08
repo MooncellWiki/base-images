@@ -1,0 +1,3 @@
+registry.cn-shanghai.aliyuncs.com:
+  username: ${ALI_CR_USERNAME}
+  password: ${ALI_CR_PASSWORD}
