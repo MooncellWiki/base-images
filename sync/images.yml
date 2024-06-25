@@ -13,3 +13,4 @@ grafana/promtail:/^2\.9/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/prom
 quay.io/prometheus/memcached-exporter:/^v0\.14/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/memcached-exporter
 quay.io/oliver006/redis_exporter:/^v1\.60/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/redis_exporter
 postgres:/^14\.8/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/postgres
+varnish:/^7\.5/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/varnish
