@@ -1,4 +1,4 @@
-name: ci
+name: varnish_exporter
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
             registry.cn-shanghai.aliyuncs.com/mooncell_mirror/varnish_exporter
             ghcr.io/mooncellwiki/varnish_exporter
           tags: |
-            type=raw,varnish_exporter:1.7.0
+            type=raw,1.7.0
             type=sha
 
       - name: Build and push Docker image
