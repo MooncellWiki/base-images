@@ -9,4 +9,4 @@ FROM varnish:7.5.0
 COPY --from=exporter /exporter/varnish_exporter /exporter/varnish_exporter 
 WORKDIR /exporter
 
-ENTRYPOINT [ "varnish_exporter" ]
+ENTRYPOINT [ "./varnish_exporter" ]
