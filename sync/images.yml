@@ -1,5 +1,5 @@
 portainer/portainer-ee:/^2\.27/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/portainer-ee
-traefik:/^3\.3/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/traefik
+traefik:/^3\.4/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/traefik
 getsentry/relay:/^25/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/relay
 redis:/^7\.4/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/redis
 memcached:/^1\.6/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/memcached
@@ -11,7 +11,7 @@ gcr.io/cadvisor/cadvisor:/^v0\.52/: registry.cn-shanghai.aliyuncs.com/mooncell_m
 prom/mysqld-exporter:/^v0\.17/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/mysqld-exporter
 grafana/promtail:/^2\.9/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/promtail
 quay.io/prometheus/memcached-exporter:/^v0\.15/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/memcached-exporter
-quay.io/oliver006/redis_exporter:/^v1\.70/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/redis_exporter
-postgres:/^14\.8/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/postgres
-varnish:/^7\.5/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/varnish
-neilpang/acme.sh:/^3\.0/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/acme.sh
+quay.io/oliver006/redis_exporter:/^v1\.74/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/redis_exporter
+postgres:/^17/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/postgres
+varnish:/^7\.7/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/varnish
+neilpang/acme.sh:/^3\.1/: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/acme.sh
