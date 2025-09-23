@@ -15,3 +15,4 @@ quay.io/oliver006/redis_exporter:v1.77.0: registry.cn-shanghai.aliyuncs.com/moon
 postgres:17.6: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/postgres
 varnish:7.7.3: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/varnish
 neilpang/acme.sh:3.1.1: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/acme.sh
+pgautoupgrade/pgautoupgrade:17.6-trixie: registry.cn-shanghai.aliyuncs.com/mooncell_mirror/pgautoupgrade
