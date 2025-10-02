@@ -1,4 +1,4 @@
-name: "publish dev container prebuilt image"
+name: "publish php dev container prebuilt image"
 on:
   pull_request:
   push:
@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'devcontainers/php/**'
+  workflow_dispatch:
 
 jobs:
   build:
