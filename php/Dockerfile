@@ -1,9 +1,9 @@
-FROM php:8.1.33-fpm
+FROM php:8.3.35-fpm
 ENV TZ=Asia/Shanghai
 
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 
-ADD https://github.com/mlocati/docker-php-extension-installer/releases/download/2.9.11/install-php-extensions /usr/local/bin/
+ADD https://github.com/mlocati/docker-php-extension-installer/releases/download/2.12.0/install-php-extensions /usr/local/bin/
 
 RUN chmod +x /usr/local/bin/install-php-extensions && \
     install-php-extensions \
